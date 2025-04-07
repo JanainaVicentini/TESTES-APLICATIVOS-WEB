@@ -1,0 +1,59 @@
+Checklist e resultados de teste: teste de layout,,,,
+,,,,
+"№,Descrição da revisão,""Google Chrome, resolução de tela 800x600"",""Firefox, resolução de tela 1920x1080"",Link para o relatório de bug"
+,                                                                      Layout tela inicial- TARIFA CASUAL.,,,
+, O estado inicial do formulário do pedido - a tarifa '' Casual'' foi escolhida e os campos ''Adicionar carteira de motorista'',APROVADO,APROVADO,
+,Validar  marca do carro - BMW 750,APROVADO,APROVADO,
+",""Validar cabeçalho / descrição da tarifa- ''Apenas negócios, nada extra''"",APROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-42"
+,Verificar a imagem correspondente ao carro selecionado,APROVADO,APROVADO,
+,Validar Parametros/ características adicionais da tarefa- '' câmera de painel . carregador de telefone.'',REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-43
+",""Verificar legenda ( tempo estimado para chegada ao ponto de origem ''A'') precedido por um ícone de silhueta de pedestre, além do tempo de espera gratuita 15 minutos "",REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-44"
+,Verificar o pou-pad de  Carsharing ~ $ 3 Duração: 3 min,REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-45
+",""Certifique-se o tempo de viagem do carro até o ponto """"De"""" (não é exibido se o usuário excluir o endereço no campo """"De"""")"",APROVADO,APROVADO,"
+",""Validar a tabela """"Estado do Botão Reservar em Carsharing''"",REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-46"
+",""Certifique-se , a tarifa """"Casual"""" é escolhida, e os campos """"Adicionar carteira de"
+"motorista"""" e """"Método de pagamento"""" estão vazios."
+",APROVADO,APROVADO,
+,Vericar as bordas do ícone carteira de motorista,REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-49
+,Verificar que é possível adicionar 5 cartões ou +.,APROVADO,APROVADO,
+,Validar o modal que aparece após clicar no botão método de pagamento, a frase do ícone que aparece ,se esta de acordo com os requisitos para realizar o preenchimento: número do cartão ( não precisa ser o seu):"",REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-50"
+",""Vericar se após inserir no metodo de pagamento ,adicionar o cartão,se o icone mostra o final do cartão adicionado, conforme esta no design."",REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-51"
+",""Verificar linhas divisorias horizontais do modalt, se estao de acordo com o figman."",APROVADO,APROVADO,"
+",""Certificar que para reservar um carro, o usuário precisa inserir os detalhes de pelo menos um cartão e clicar no botão'' adicionar''"",APROVADO,APROVADO,"
+",""Validar frase do modal após fazer a reserva do carro ,onde  consta as informação da viagem e custo."",REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-52"
+,Verificar linhas divisorias horinzontais do modalt se estão de acordo com o figman.,REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-53
+",""Vericar cores no ícone, ao adicionar carteira de motorista."",REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-55"
+",""Vericar cores no ícone, ao adicionar cartão de crédito"",REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-54"
+",""Validar cores do incone abaixo do preenchimento adicionar cartão, se estão conforme o designer mostra."",APROVADO,APROVADO,"
+",""Validar pou-pap que aparece  abaixo , há uma seção com os"
+"detalhes da tarifa e informações sobre o carro mais próximo: aparece um icone com Adicionar carteira de motorista e reservar, a rota será de 3 quilômetros e levará 3 minutos."",REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-47"
+",""O tempo de viagem do carro até o ponto """"De"""" (não é exibido se o usuário excluir o endereço no campo """"De"""")"",APROVADO,APROVADO,"
+","" Validar se o  botão """"Reservar"""" fica abaixo dos """"Requisitos do pedido"""""",APROVADO,APROVADO,"
+",""Validar a exibição das  três  tarifas estão disponíveis: ''Casual'', ''Camping'' e ''Luxury''"",APROVADO,APROVADO,"
+"1,""Certificar-se que ao acessar o Urban.Routes o campo de """"DE"""" e """"PARA"""" estão vazios"",APROVADO,APROVADO,"
+"2,""Verificar se ao acessar o Urban.Routes exibe o nome """"PLATAFORMA'' em marca d' água."",REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-2"
+,Validando Layout ''DE'' e ''PARA'' ,,,
+4,Verificar se a imagem parcial de um carro azul é exibida no modo Carsharing ao lado das infos e botão  ''Reservar''.Conferir fidelidade ao Layout.,REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-55
+5,Certifique-se que os ícones que apresentam os modos de transporte estão em conformidade com os requisitos,APROVADO,APROVADO,
+"7,""Confiirmar que as alternativas para o modo de rota ''Optimal, ''Flash'' e Personal estão de acordo com o protótipo."",APROVADO,APROVADO,"
+"8,""Ao acessar o Urban.Routes, preencher o campo ''DE''e ''PARA'', ao reservar o carro aparece a frase com a descrição do carro."",REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-10"
+9,Ao acessar o Urban.Routes existe um icone vermelho na frente do  campo''DE'' .,APROVADO,APROVADO,
+10,Ao acessar o Urban.Routes existe um icone azull na frente do campo''PARA'' .,APROVADO,APROVADO,
+"11,""Ao acessar o Urban.Routes, ao inserir o endereço incorreto no campo''DE'' aparece uma mensagem de errro"",APROVADO,APROVADO,"
+12, Ao digitar os endereços ''De'' e ''Para'' e selecionar o modo Personal exibe ''Carsharing~$ X Duração: X min.,REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-3
+13,Ao digitar os endereços ''De'' e ''Para'' e selecionar o modo Personal exibe o botão ''RESERVAR'',REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-4
+"14,""Ao acessar o Urban.Routes o campo de """"DE"""" e """"PARA"""" ,ao adicionar a carteira de motorista aparece uma frase de validação."",REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-10"
+"15,""Ao acessar o Urban.Routes o campo de """"DE"""" e """"PARA"""" ,selecionar modo personal,clicar em botão ''RESERVAR''"",REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-9"
+"16,""Ao digitar o campo ''DE'' e ''PARA'',preencher o campos validar o pop-upes X para cancelamento da corrida."",REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-14"
+"17,""Ao acessar o Urban.Routes o campo de """"DE"""" e """"PARA"""" ,selecionar o modo personal,o adicionar a carteira de motorista aparece o ícone CHEK ."",REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-6"
+"18,""Ao acessar o Urban.Routes o campo de """"DE"""" e """"PARA"""" ,selecionar modo personal,clicar em botão ''RESERVAR'',ÍCONE DE MÉTODO DE PAGAMENTO"",REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-15"
+,                                                                      Layout MAPA,,,
+,,,,
+,Não é exibido no mapa o nome do endereço ''DE'' e ''PARA''.,REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-1
+,Ao digitar os endereços ''De'' e ''Para'' e selecionar o modo Personal é exibido a rota no mapa,REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-1
+",""Ao clicar no botão ''Reservar'', aparece ícones de carros azul no mapa."",REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-5"
+,Ao acessar o Urban.Routes aparece no canto superior do mapa o Layout Satélite ,APROVADO,APROVADO,
+,Ao acessar o Urban.Routes aparece no canto inferior os ícones de + e - de Zoom,REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-12
+",""Conferir que apenas o endereço de destino  recebe um pino de marcação, de acordo com as referências de design."",REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-48"
+,Garantir que o ícone do carro mais próximo é exibido num tamanho maior que os demais,REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-56
+,Conferir que o trajeto do ponto de origem ao ponto de chegada é ilustrado de acordo com o layout,REPROVADO,REPROVADO,https://janainamariavicentin.atlassian.net/browse/BUG-57
